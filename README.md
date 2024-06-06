@@ -55,8 +55,9 @@ You can run it using [Visual Studio 2019 Community Edition](https://visualstudio
 ![image](https://user-images.githubusercontent.com/41350731/76382787-f6d70480-63ad-11ea-8763-bfaf34663d44.png)
 
 
-### Build the project
-Go back to Explorer and press F5 (or go to _Debug_ > _Start Debugging_). You might need to choose a default ISS Express browser that you would like to use to test. I am using MS Edge. 
+### Build the project 
+Clean and Rebuild the solution before running the project. (This is to prevent a bug with the Roslyn compiler which can happen when cloning the project from GitHub.)
+Then go back to Explorer and press F5 (or go to _Debug_ > _Start Debugging_). You might need to choose a default ISS Express browser that you would like to use to test. I am using MS Edge. 
 
 ![image](https://user-images.githubusercontent.com/41350731/76382816-0bb39800-63ae-11ea-990f-ccaca3563b78.png)
 
